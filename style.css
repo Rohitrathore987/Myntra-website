@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 122px;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+}
+.flex{
+    display: flex;
+}
+.left img{
+    width: 32px;
+    height: 32px;
+}
+.containerheader{
+    padding: 0 12px;
+    margin: 13px 0;
+}
+nav{
+    padding-top: 12px;
+    font-size: 12px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    background: #f7f8fd;
+}
+.Search{
+    width: 25vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: f7f8fd;
+    border-radius: 5px;
+}
+.homeImg{
+    width: 100%;
+    margin: 6px 0;
+}
+.itomImg{
+    width: 22vw;
+    margin: 6px 15px;
+}
+.itomImg7{
+    width: 100%;
+    margin: 6px 0;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+}
+
+@media (max-width:1050px){
+    header{
+        background: rgb(240, 237, 230);
+        height: 140px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 8px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+        font-size: 8px;
+    }
+    .right{
+        flex-direction: column;
+
+    }
+    .rightBox{
+        display: flex;
+        margin: 10px;
+    }
+    .Search{
+        margin: 6px 0;
+        width: 20vw;
+        /* align-items: center;
+        text-align: center; */
+    }
+    .containerheader{
+        padding:  0 10px;
+    }
+    .left img{
+        width: 25px;
+        height: 25px;
+    }
+    .itomImg{
+        width: 20vw;
+        margin: 4px 6px;
+    }
+}
+
+@media ( max-width:300px){
+    .Search{
+        width: 30px;
+    }
+    .itomImg{
+        width: 25vw;
+        margin: 4px 6px ;
+    }
+}
